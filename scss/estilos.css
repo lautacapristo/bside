@@ -1,0 +1,177 @@
+.navIndex {
+  margin: 1em;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.navWord {
+  margin-left: 1.4em;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1em;
+}
+
+.h2Index {
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 5.1em;
+}
+
+.h3Index {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 0.9rem;
+  border-radius: 1em;
+  font-size: 1.1em;
+}
+
+#targetElement {
+  color: var(--text);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-left: 4.3em;
+  font-size: 4em;
+  transform-origin: center center;
+}
+
+@keyframes movimiento {
+  from {
+    transform: translateX(0px) rotateX(280deg);
+  }
+  to {
+    transform: translateX(13em) rotateX(-780deg) rotateY(30deg);
+  }
+}
+
+#targetElement {
+  animation: movimiento 5s  linear 0s infinite alternate none;
+}
+
+#targetElement2 {
+  color: #6d0d0d;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-left: 7.8em;
+  font-size: 4em;
+  transform-origin: center center;
+}
+
+@keyframes movimiento2 {
+  from {
+    transform: translateX(0px) rotateX(280deg);
+  }
+  to {
+    transform: translateX(-13em) rotateX(-780deg) rotateY(30deg);
+  }
+}
+
+#targetElement2 {
+  animation: movimiento2 5s linear 0s infinite alternate none;
+}
+
+.bodyIzquierdo {
+  background-image: url("../../img/precios.jpg");
+  max-width: 60%;
+  height: 30em;
+  padding: 4em;
+  color: white;
+}
+
+.fotoMati {
+  width: 12em;
+  height: 12em;
+  border-radius: 150px;
+}
+
+.h4Index {
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.h4Barberia {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.bodyDerecho {
+  color: white;
+  background-image: url("../../img/marmolado.jpg");
+  max-width: 60%;
+  height: 30em;
+  padding: 2.7em;
+  font-weight: bold;
+}
+
+.fondoBody {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1444' height='565' preserveAspectRatio='none' viewBox='0 0 1444 565'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1020%26quot%3b)' fill='none'%3e%3crect width='1444' height='565' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M1516.2 565L0 565 L0 354.49Q60.07 294.23%2c 120.33333333333333 354.3Q165.32 327.08%2c 192.53333333333333 372.07Q207.89 315.22%2c 264.73333333333335 330.58Q313.42 258.93%2c 385.06666666666666 307.62Q446.42 296.78%2c 457.26666666666665 358.13Q502.24 282.77%2c 577.6 327.75Q616.65 246.46%2c 697.9333333333334 285.51Q745.29 260.67%2c 770.1333333333334 308.03Q840.73 306.42%2c 842.3333333333335 377.02Q856.35 270.7%2c 962.6666666666669 284.71Q1028.42 230.13%2c 1083.0000000000002 295.89Q1168.09 260.64%2c 1203.3333333333335 345.73Q1256.15 326.35%2c 1275.5333333333335 379.16Q1290.24 273.53%2c 1395.8666666666668 288.24Q1461.09 233.13%2c 1516.2 298.35z' fill='rgba(217%2c 4%2c 4%2c 1)'%3e%3c/path%3e%3cpath d='M1516.2 565L0 565 L0 360.4Q58.35 346.55%2c 72.2 404.9Q123.78 384.27%2c 144.4 435.85Q173.2 392.45%2c 216.60000000000002 421.25Q261.17 345.48%2c 336.93333333333334 390.05Q396.2 377.12%2c 409.1333333333333 436.38Q416.26 371.31%2c 481.3333333333333 378.44Q529.65 306.43%2c 601.6666666666666 354.75Q658.52 339.4%2c 673.8666666666667 396.25Q694.62 344.8%2c 746.0666666666667 365.56Q835.32 334.48%2c 866.4000000000001 423.73Q914.13 351.12%2c 986.7333333333335 398.85Q1011.68 351.6%2c 1058.9333333333334 376.55Q1155.76 353.04%2c 1179.2666666666667 449.87Q1227.81 378.08%2c 1299.6 426.63Q1304.56 359.39%2c 1371.8 364.35Q1434.33 354.67%2c 1444 417.2Q1458.9 359.91%2c 1516.2 374.81z' fill='rgba(211%2c 185%2c 34%2c 1)'%3e%3c/path%3e%3cpath d='M1564.3333333333333 565L0 565 L0 447.31Q81.13 408.1%2c 120.33333333333333 489.23Q150.66 399.22%2c 240.66666666666666 429.55Q282.88 399.56%2c 312.8666666666667 441.77Q397.54 406.11%2c 433.2 490.79Q475.93 461.32%2c 505.4 504.05Q548.94 475.39%2c 577.6 518.94Q590.66 411.66%2c 697.9333333333334 424.72Q766.55 373%2c 818.2666666666668 441.61Q915.6 418.61%2c 938.6000000000001 515.94Q975.13 432.13%2c 1058.9333333333334 468.66Q1129.94 419.33%2c 1179.2666666666667 490.34Q1231.22 470.09%2c 1251.4666666666667 522.04Q1281.7 480.08%2c 1323.6666666666667 510.31Q1343.54 409.85%2c 1444 429.73Q1519.8 385.2%2c 1564.3333333333333 461z' fill='rgba(13%2c 13%2c 14%2c 1)'%3e%3c/path%3e%3cpath d='M1492.1333333333334 565L0 565 L0 566.86Q26.35 521.01%2c 72.2 547.37Q94.75 497.72%2c 144.4 520.26Q211.65 467.18%2c 264.73333333333335 534.43Q337.32 486.68%2c 385.06666666666666 559.26Q434.19 536.19%2c 457.26666666666665 585.31Q467.33 523.17%2c 529.4666666666667 533.23Q555.7 487.26%2c 601.6666666666667 513.49Q661.04 500.66%2c 673.8666666666668 560.04Q742.73 508.57%2c 794.2000000000002 577.44Q817.28 480.18%2c 914.5333333333335 503.26Q985.94 454.33%2c 1034.8666666666668 525.73Q1112.04 482.57%2c 1155.2 559.75Q1201.18 533.52%2c 1227.4 579.5Q1239.6 519.5%2c 1299.6000000000001 531.7Q1349.09 460.86%2c 1419.9333333333334 510.35Q1476.3 494.52%2c 1492.1333333333334 550.89z' fill='rgba(243%2c 5%2c 5%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1020'%3e%3crect width='1444' height='565' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.fondito {
+  background-image: url("../../img/fondiyo2.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vh;
+  height: 46em;
+}
+
+.carouselH {
+  height: 35.3em;
+  width: 60%;
+}
+
+/* From cssbuttons.io */
+/* From cssbuttons.io */
+.btn {
+  margin-top: 4em;
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  font-family: inherit;
+  font-weight: bold;
+  color: black;
+  background-color: transparent;
+  border-top: 2px double black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-bottom: 2px double black;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+/*# sourceMappingURL=estilos.css.map */
