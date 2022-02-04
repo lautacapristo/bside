@@ -22,8 +22,11 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./js/css/bootstrap.min.css">
     <link rel="stylesheet" href="./scss/estilos.css">
 </head>
@@ -39,25 +42,29 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <!-- <a class="navbar-brand" href="#">
                     <img src="./img/bsideLogo1.png" alt="" width="180" height="110">
-                </a> -->
-                    <div class="container-fluid justify-content-center w-100 navIndex ">
+                </a>  -->
 
-
-                        <ul class="navbar-nav ">
-                            <li class="nav-item ">
-                                <a class="nav-link active navWord" aria-current="page" href="#">INICIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active navWord" href="#">GALERIA</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active navWord" href="#">UBICACION</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active navWord ">NOSOTROS</a>
-                            </li>
-                        </ul>
-
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="container-fluid justify-content-center w-100 navIndex ">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item ">
+                                    <a class="nav-link active navWord" aria-current="page" href="#">INICIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navWord" href="#ubicacion">UBICACION</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navWord" href="#nosotros">NOSOTROS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active navWord" href="#">GALERIA</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
                 <h2 class="h2Index text-center my-5">
@@ -80,89 +87,101 @@
         </div>
     </div>
     <!--Body-->
+    <a href="https://wa.me/5491138915444?text=Hola!%20Me%20gustaria%20reservar%20un%20turno" class="whatsapp"
+        target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
 
 
-    <!-- <div class="col-lg-6 bodyIzquierdo text-center">
-           <p> Lorem ipsum dolor sit amet em nesciunt tenetur, commodi ipsam ab enim numquam praesentium quia, at cupiditate nulla, beatae sapiente debitis velit provident ratione.</p>
-<img src="img/mati.jfif" class="fotoMati my-3">       
-        </div>
-        <div class="col-lg-6 bodyDerecho">
-            <h4 class="h4Index">PROMOCIONES </h4>
-            <div>
-                <p class="my-5"> <em>  PELO Y BARBA  ..................................................................................</em>     550$  </p> 
-            </div>
-            <div>
-                <p class="my-5"> <em>  CLARITOS ..........................................................................................</em>     2000$  </p> 
-            </div>
-            <div>
-                <p class="my-5"> <em>  COLOR ..............................................................................................</em>    2500$  </p>
-            </div>
-            <div>
-                <p class="my-5"> <em>  CORTE MAS COLOR ............................................................................</em>    3000$  </p>
-            </div>
-        </div> -->
-    <div class="row">
-        <h4 class="h4Barberia text-center my-5 col-lg-12 ">
+    <div class="row letraBarberia">
+        <h4 class="h4Barberia text-center my-5 col-lg-12 col-md-12 col-sm-12 ">
             BARBERIA
         </h4>
-        <div class="col-lg-4 text-center"> asdasd  <i class="fas fa-cut kft"></i>d</div>
-        <div class="col-lg-4 text-center"> asdasd </div>
-        <div class="col-lg-4 text-center"> asdasd </div>
-
-
-    </div>
-
-    <!-- <div class="fondoBody"> 
-    <div id="carouselExampleCaptions" class="carousel slide backCarousel" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class=" active align-items-center"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class=" align-items-center"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class=" align-items-center"
-                aria-label="Slide 3"></button>
+        <div class="col-lg-4  col-md-4 col-sm-12 text-center direccion">
+            <p><b>DIRECCION</b> </p>
+            <p class=""><em>Nos encontramos en <b class="colorGris">Gelly Y Obes 587 e/ Belgrano y Libertad</b> </em>
+            </p>
+            <p class="marginDireccion"> <i class="bi bi-map"></i> Quilmes</p>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/carousel1.jfif" class="d-block  mx-auto carouselH"  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    
-                    <h5 class="h5Carousel my-2">El lado B de tu imagen</h5>
-                    <p class="my-4">Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/carousel2.jfif" class="d-block mx-auto carouselH"  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="./img/carousel3.jfif" class="d-block  mx-auto carouselH"  alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center horarios">
+            <p>
+                <b>HORARIOS DE ATENCION </b>
+            </p>
+            <p> <em><b class="colorGris">LUNES A VIERNES</b></em> </p>
+            <p>9 am a 7 pm</p>
+            <p> <em><b class="colorGris">SABADOS</b></em> </p>
+            <p>9 am a 8 pm</p>
         </div>
-        <button class="carousel-control-prev mx-auto w-50 d-block" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next mx-auto w-50 d-block" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-<footer class="my-5">
-    asfsdgs sfdsjkf
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati excepturi ratione quasi officiis eaque id temporibus nesciunt rerum aspernatur commodi.
-</footer>
-</div> -->
-    <script src="./js/js.bootstrap/bootstrap.min.js"></script>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center bsider">
+            <p><b>BSIDE-SHOP</b></p>
+            <p><em>Peluqueria y Barberia</em></p>
+            <!-- <p> Nos encontramos en Quilmes </p> -->
+            <ul>
+                <li class="estiloLista colorGris">Corte de cabello</li>
+                <li class="estiloLista colorGris">Arreglo de barba</li>
+                <li class="estiloLista colorGris">Color</li>
+                <li class="estiloLista colorGris">Zona WI-FI</li>
+                <li class="estiloLista colorGris">Atención personalizada</li>
+            </ul>
+        </div>
+
+        <!--mapa-->
+
+        <div class="mapa my-5" name="ubicacion" id="ubicacion"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.98248451465!2d-58.24164118476704!3d-34.73083588042669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e540870bcf1%3A0xb2cfd7d86b6ab9ab!2sGelly%20y%20Obes%20587%2C%20Quilmes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1643927301157!5m2!1ses!2sar"
+                width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+        <!--Card-->
+        <div class=" row" data-aos="fade-right">
+
+
+
+            <div class="card mb-3 my-3 container w-100 ">
+                <div class="row g-0 carta" name="nosotros" id="nosotros">
+                    <div class="col-md-4 ">
+                        <img src="./img/mati.jfif" class="img-fluid fotoMati" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Matias Damian Huyema</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
+                                ratione repellat, veniam vero quam, quod mollitia pariatur amet dolorum ipsa atque.
+                                Maxime nisi tmque eligendi facilis mollitia
+                                exeepudiandae laudantium! Architecto, exercitationem
+                                quasi possimus sit, impedit ratione maiores dolorem obcaecati provident consectetur
+                                necessitatibus voluptatem?.</p>
+                            <p class="card-text"><small class="text-muted">BSIDE SHOP</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--footer-->
+
+    
+    <footer class="row bg-black">
+        <div class="col-lg-6 text-center">
+            <h6 class="my-3 colorh6 text-center">También podes encontrarnos en</h6>
+            <p> <i class="bi bi-instagram bsideShop colorBlanco"> </i> <a
+                    href="https:/www.instagram.com/bside.shop/" class=" bsideShop colorBlanco">BSIDE SHOP</a>
+            </p>
+            <p><i class="bi bi-facebook bsideShop colorBlanco"> </i> <a
+                    href="https:/www.facebook.com/bside.shop.ok" class=" bsideShop colorBlanco">BSIDE SHOP</a>
+            </p>
+        </div>
+        <div class="col-lg-6">sad</div>
+    </footer> 
+
+        </div>
+
+
+
+        <script src="./js/js.bootstrap/bootstrap.min.js"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>
