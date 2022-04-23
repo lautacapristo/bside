@@ -1,0 +1,112 @@
+.fondoCards {
+    background-color: black;
+    height: 45em;
+    
+}
+
+.containerCards {
+    max-height: 30em;
+}
+
+.card00 {
+padding: 1em;
+margin-top: 5em;
+margin-right: 3.2em;
+box-shadow: 0.3em 0.2em 0.4em 0.3em white;
+transition: all 1s ease;
+}
+
+.card00:hover {
+transform: translateY(-3%);
+box-shadow:0.4em 0.3em 0.5em 0.4em  white;
+}
+
+
+    
+
+.card-img-top {
+    border-radius: 2em;
+}
+
+.card-title {
+
+        border-bottom: 1px solid #dee2e6!important;
+}
+.card {
+    max-width: 18em;
+    max-height: 35em;
+    background-color: rgb(14, 13, 13);
+    
+}
+
+.c-white{
+color: white;
+}
+
+.btn2 {
+    margin-left:0.67em;
+}
+.btn3 {
+    margin-left: 0.88em;
+}
+
+
+
+// .middle {
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     position: absolute;
+//     visibility: hidden;
+//   }
+//   .bar {
+//     width: 10px;
+//     height: 70px;
+//     background: #fff;
+//     display: inline-block;
+//     transform-origin: bottom center;
+//     border-top-right-radius: 20px;
+//     border-top-left-radius: 20px;
+//     /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+//     animation: loader 1.2s linear infinite;
+//   }
+//   .bar1 {
+//     animation-delay: 0.1s;
+//   }
+//   .bar2 {
+//     animation-delay: 0.2s;
+//   }
+//   .bar3 {
+//     animation-delay: 0.3s;
+//   }
+//   .bar4 {
+//     animation-delay: 0.4s;
+//   }
+//   .bar5 {
+//     animation-delay: 0.5s;
+//   }
+//   .bar6 {
+//     animation-delay: 0.6s;
+//   }
+//   .bar7 {
+//     animation-delay: 0.7s;
+//   }
+//   .bar8 {
+//     animation-delay: 0.8s;
+//   }
+  
+//   @keyframes loader {
+//     0% {
+//       transform: scaleY(0.1);
+      
+//     }
+//     50% {
+//       transform: scaleY(1);
+//       background: yellowgreen;
+//     }
+//     100% {
+//       transform: scaleY(0.1);
+//       background: transparent;
+//     }
+//   }
+  

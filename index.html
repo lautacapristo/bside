@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./js/css/bootstrap.min.css">
     <link rel="stylesheet" href="./scss/estilos.css">
 </head>
@@ -50,7 +51,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <div class="container-fluid justify-content-center w-100 navIndex ">
-                            <ul class="navbar-nav ">
+                            <ul class="navbar-nav justify-content-center">
                                 <li class="nav-item ">
                                     <a class="nav-link active navWord" aria-current="page" href="#">INICIO</a>
                                 </li>
@@ -61,7 +62,7 @@
                                     <a class="nav-link active navWord" href="#nosotros">NOSOTROS</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active navWord" href="#">GALERIA</a>
+                                    <a class="nav-link active navWord" href="./galeria.html">GALERIA</a>
                                 </li>
                             </ul>
                         </div>
@@ -71,7 +72,7 @@
                     B-SIDE
                 </h2>
                 <h3 class="h3Index text-center">
-                    <button class="btn">
+                    <button class="btn btn1">
                         Contacta con nosotros
                     </button>
 
@@ -95,21 +96,6 @@
         <h4 class="h4Barberia text-center my-5 col-lg-12 col-md-12 col-sm-12 ">
             BARBERIA
         </h4>
-        <div class="col-lg-4  col-md-4 col-sm-12 text-center direccion">
-            <p><b>DIRECCION</b> </p>
-            <p class=""><em>Nos encontramos en <b class="colorGris">Gelly Y Obes 587 e/ Belgrano y Libertad</b> </em>
-            </p>
-            <p class="marginDireccion"> <i class="bi bi-map"></i> Quilmes</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 text-center horarios">
-            <p>
-                <b>HORARIOS DE ATENCION </b>
-            </p>
-            <p> <em><b class="colorGris">LUNES A VIERNES</b></em> </p>
-            <p>9 am a 7 pm</p>
-            <p> <em><b class="colorGris">SABADOS</b></em> </p>
-            <p>9 am a 8 pm</p>
-        </div>
         <div class="col-lg-4 col-md-4 col-sm-12 text-center bsider">
             <p><b>BSIDE-SHOP</b></p>
             <p><em>Peluqueria y Barberia</em></p>
@@ -122,7 +108,22 @@
                 <li class="estiloLista colorGris">Atención personalizada</li>
             </ul>
         </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center horarios">
+            <p>
+                <b>HORARIOS DE ATENCION </b>
+            </p>
+            <p> <em><b class="colorGris">LUNES A VIERNES</b></em> </p>
+            <p>9 am a 7 pm</p>
+            <p> <em><b class="colorGris">SABADOS</b></em> </p>
+            <p>9 am a 8 pm</p>
+        </div>
 
+        <div class="col-lg-4  col-md-4 col-sm-12 text-center direccion">
+            <p><b>DIRECCION</b> </p>
+            <p class=""><em>Nos encontramos en <b class="colorGris">Gelly Y Obes 587 e/ Belgrano y Libertad</b> </em>
+            </p>
+            <p class="marginDireccion"> <i class="bi bi-map"></i> Quilmes</p>
+        </div>
         <!--mapa-->
 
         <div class="mapa my-5" name="ubicacion" id="ubicacion"><iframe
@@ -132,7 +133,7 @@
         </div>
 
         <!--Card-->
-        <div class=" row" data-aos="fade-right">
+        <!-- <div class=" row" data-aos="fade-right">
 
 
 
@@ -154,34 +155,34 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <!--footer-->
+        <!--footer-->
 
-    
-    <footer class="row bg-black">
-        <div class="col-lg-6 text-center">
-            <h6 class="my-3 colorh6 text-center">También podes encontrarnos en</h6>
-            <p> <i class="bi bi-instagram bsideShop colorBlanco"> </i> <a
+
+        <footer class="row bg-black text-center" id="foot">
+
+
+            <p class="col-lg-6 centrarFoot"> <i class="bi bi-instagram bsideShop colorBlanco"> </i> <a
                     href="https:/www.instagram.com/bside.shop/" class=" bsideShop colorBlanco">BSIDE SHOP</a>
             </p>
-            <p><i class="bi bi-facebook bsideShop colorBlanco"> </i> <a
-                    href="https:/www.facebook.com/bside.shop.ok" class=" bsideShop colorBlanco">BSIDE SHOP</a>
+            <p class="col-lg-6 centrarFoot"><i class="bi bi-instagram bsideShop colorBlanco"> </i> <a
+                    href="https://www.instagram.com/matihuyema/" class=" bsideShop colorBlanco">Matias Damian Huyema</a>
             </p>
-        </div>
-        <div class="col-lg-6">sad</div>
-    </footer> 
+    </div>
 
-        </div>
+    </footer>
 
+    </div>
 
-
-        <script src="./js/js.bootstrap/bootstrap.min.js"></script>
-
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
+    
+    
+    <script src="./js/index.js"> </script>
+    <script src="./js/js.bootstrap/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
