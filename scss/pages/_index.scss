@@ -176,16 +176,39 @@
 
 .bsideShop {
     text-decoration: none;
-    font-size: 2.2em;
+    font-size: 1.2em;
 }
 
 #foot {
  height: 11em;
 }
-.centrarFoot {
-    padding: 4.5em;
+
+
+.divfoot{
+    border-right: 3px double white;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
 }
-@media screen and (max-width: 486px) {
+
+.marginh3 {
+    margin-bottom: 1em;
+}
+.ulFooter {
+    font-size: 1.1em;
+    list-style: none;
+    
+}
+
+.derechosReservados {
+    font-size: 1.3em;
+    padding: 2.2em;
+    color: white;
+
+}
+
+
+@media screen and (max-width: 576px) {
     .fondito {
         max-height: 30em;
     }
@@ -195,8 +218,8 @@
     }
 
      .direccion {
-        border-bottom: 3px double rgb(54, 54, 54);
         
+        margin-top: 2em;
      }
 
     .horarios {
@@ -206,7 +229,13 @@
 
     .bsider {
         margin-top: 2em;
+        border-bottom: 3px double rgb(54, 54, 54);
+        
     }
+    .estiloLista {
+    list-style-type: none;
+    margin-right: 2em;
+}
 
     .fotoMati {
         margin-left: 7em !important;
@@ -220,9 +249,23 @@
         border-bottom: 12px inset rgb(179, 177, 177);
         max-height: 35em;
     }
+
+#foot {
+    height: 40em;
+    
+}
+.izqfoot{
+    margin-right: 2em;
 }
 
-@media screen and (min-width: 950px) {
+    .divfoot {
+        border-bottom: 3px solid white;
+        border-right: none;
+        
+    }
+}
+
+@media screen and (min-width: 990px) {
 #targetElement {
     color: var(--text);
         border-radius: 50%;

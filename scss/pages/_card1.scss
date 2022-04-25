@@ -1,0 +1,35 @@
+ .h2Cards {
+     font-family: 'Josefin Sans', sans-serif;    
+     
+     color: black;
+ }
+
+ .fCards {
+background-color: white;
+ }
+
+
+.card1fotos {
+   max-width: 21em;
+   max-height: 25em;
+}
+
+.card1fotos--abajo {
+ max-width: 21em;
+}
+
+.box-sh {
+    border-top: 5px solid black;
+    border-bottom:  5px solid black;
+    border-left:  5px solid black;
+    border-right:  7px solid black;
+     box-shadow: 0.3em 0.3em 0.3em 0.4em rgb(24, 21, 21);
+     padding: 2.5em;
+     margin-left: 0.3em;
+     background-color: antiquewhite;
+}
+
+.breadC {
+   color: black;
+   margin-left: 0.15em;
+}
